@@ -3,65 +3,60 @@ menu:
    隧道: /archives/ || anzhiyu-icon-box-archive
    分类: /categories/ || anzhiyu-icon-shapes
    标签: /tags/ || anzhiyu-icon-tags
-
  友链:
    友人帐: /link/ || anzhiyu-icon-link
    朋友圈: /fcircle/ || anzhiyu-icon-artstation
    留言板: /comments/ || anzhiyu-icon-envelope
-
  我的:
-   音乐馆: /music/ || anzhiyu-icon-music
+   音乐馆: /music/?id=1708664797 || anzhiyu-icon-music
    追番页: /bangumis/ || anzhiyu-icon-bilibili
    相册集: /album/ || anzhiyu-icon-images
-   小空调: /air-conditioner/ || anzhiyu-icon-fan
-
  关于:
    关于本人: /about/ || anzhiyu-icon-paper-plane
    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
-
 # nav相关配置
 nav:
   enable: true
   travelling: true
   clock: true
-  menu:
-    - title: 博客
-      item:
-        - name: 博客站点
-          link: https://hexo.asteroidrocket.top/
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1697097432990%E6%88%90%E5%A4%A7%E4%BA%8B.jpg
-    - title: 收集的有趣网页
-      item:
-        - name: tower
-          link: https://tower.asteroidrocket.top/
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/16990216818761699021681322.png
-        - name: 烟花
-          link: https://fireworks.asteroidrocket.top/
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/16990211070371699021106243.png
-        - name: 魔方
-          link: https://cube.asteroidrocket.top/
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/16990226138881699022613057.png
-        - name: 收集中~
-          link: /
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1699023059974tianj.png
-    - title: 项目
-      item:
-        - name: 音乐小行星
-          link: https://music.asteroidrocket.top/
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17193929684811024x1024.png
-        - name: 社团活动平台
-          link: https://club.asteroidrocket.top/
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1698653924814dragon1.jpg
-        - name: 快乐买鞋城
-          link: https://buy.asteroidrocket.top/
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1698653667259%E9%85%B7-1.png
-        - name: ChatGPT
-          link: https://chat.asteroidrocket.top/
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1699022251879chatgpt.jpg
-        - name: 待补充
-          link: /
-          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1699022918966Projector.png
+#  menu:
+#    - title: 博客
+#      item:
+#        - name: 博客站点
+#          link: https://hexo.asteroidrocket.top/
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1697097432990%E6%88%90%E5%A4%A7%E4%BA%8B.jpg
+#    - title: 收集的有趣网页
+#      item:
+#        - name: tower
+#          link: https://tower.asteroidrocket.top/
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/16990216818761699021681322.png
+#        - name: 烟花
+#          link: https://fireworks.asteroidrocket.top/
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/16990211070371699021106243.png
+#        - name: 魔方
+#          link: https://cube.asteroidrocket.top/
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/16990226138881699022613057.png
+#        - name: 收集中~
+#          link: /
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1699023059974tianj.png
+#    - title: 项目
+#      item:
+#        - name: 音乐小行星
+#          link: https://music.asteroidrocket.top/
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/17193929684811024x1024.png
+#        - name: 社团活动平台
+#          link: https://club.asteroidrocket.top/
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1698653924814dragon1.jpg
+#        - name: 快乐买鞋城
+#          link: https://buy.asteroidrocket.top/
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1698653667259%E9%85%B7-1.png
+#        - name: ChatGPT
+#          link: https://chat.asteroidrocket.top/
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1699022251879chatgpt.jpg
+#        - name: 待补充
+#          link: /
+#          icon: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1699022918966Projector.png
 
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
@@ -228,7 +223,7 @@ mainTone:
 # wordcount (字数统计)
 # see https://blog.anheyu.com/posts/c27d.html#字数统计
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -866,7 +861,7 @@ aside:
 busuanzi:
   site_uv: false
   site_pv: false
-  page_pv: false
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -954,7 +949,7 @@ rightside_item_order:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
+medium_zoom: true
 
 # fancybox
 # http://fancyapps.com/fancybox/3/
@@ -988,7 +983,7 @@ note:
 
 icons:
   ali_iconfont_js: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
-  fontawesome: false #是否启用fontawesome6图标
+  fontawesome: true #是否启用fontawesome6图标
   fontawesome_animation_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 
 # other
@@ -1063,7 +1058,7 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 旷野人生
+  title: 旷野人生,
   subTitle: 逐风自由。
   siteText: https://github/cuifanfan.com
   category:
@@ -1072,7 +1067,7 @@ home_top:
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 大学
+    - name: 旅行
       path: /categories/大学生涯/
       shadow: var(--anzhiyu-shadow-red)
       class: red
@@ -1089,9 +1084,9 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: 文章推荐
-    title: 鼠标美化
-    image: https://gitee.com/AsteroidQiao/library-management-system/raw/master/book-avatar/1699196452934wall7.png
-    link: https://blog.asteroidrocket.top/2023/07/31/Alist-RaiDrive%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/
+    title: 邂逅浏览器
+    image: /images/chrome2.webp
+    link: /2025/03/04/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/%E9%82%82%E9%80%85%E6%B5%8F%E8%A7%88%E5%99%A8/
 
 # 朋友圈配置
 friends_vue:
@@ -1240,8 +1235,8 @@ peoplecanvas:
 # 动效
 dynamicEffect:
   postTopWave: true # 文章顶部波浪效果
-  postTopRollZoomInfo: false # 文章顶部滚动时缩放
-  pageCommentsRollZoom: false # 非文章页面评论滚动时缩放显示（仅仅Twikoo生效）
+  postTopRollZoomInfo: true # 文章顶部滚动时缩放
+  pageCommentsRollZoom: true # 非文章页面评论滚动时缩放显示（仅仅Twikoo生效）
 
 # Inject
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)

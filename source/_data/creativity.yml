@@ -1,3 +1,11 @@
+###
+ # @Author: cuifan cuifan@isv-tech.com
+ # @Date: 2025-03-04 14:34:55
+ # @LastEditors: cuifan cuifan@isv-tech.com
+ # @LastEditTime: 2025-03-04 14:35:22
+ # @FilePath: source/_data/creativity.yml
+ # @Description: 这是默认设置,可以在设置》工具》File Description中进行配置
+###
 - class_name: 开启创造力
   creativity_list:
     - name: Java
@@ -48,5 +56,3 @@
     - name: Apifox
       color: "#e65164"
       icon: https://bu.dusays.com/2022/11/19/6378d6458c6b6.png
-
-将前后端联调并行工作改为串行化

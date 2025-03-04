@@ -1,0 +1,19 @@
+###
+ # @Author: cuifan cuifan@isv-tech.com
+ # @Date: 2025-03-04 14:34:55
+ # @LastEditors: cuifan cuifan@isv-tech.com
+ # @LastEditTime: 2025-03-04 14:35:21
+ # @FilePath: source/_data/essay.yml
+ # @Description: 这是默认设置,可以在设置》工具》File Description中进行配置
+###
+- title: 即刻短文
+  subTitle: 崔帆的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: /img/top.png
+  essay_list:
+    - content: 我真讨厌加班😤️，加的我烦死了
+      date: 2024/9/25 9:30:04

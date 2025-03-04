@@ -3,13 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 小崔同学
+title: 崔帆
 subtitle: 旷野人生，逐风自由
 description: 一生所求，爱与自由；兜兜转转，钥匙初握。
-keywords: 博客；小崔同学
-author: 小崔同学
+keywords: 博客；崔帆
+author: 崔帆
 language: zh-CN
 timezone: Asia/Shanghai
+
+
+hexo-browsersync:
+  ghostMode: true     # 同步滚动条位置等行为
+  notify: true        # 开启通知提醒
+  open: true          # 自动打开浏览器
+
+server:
+  compress:  true
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -30,6 +39,57 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+envelope_comment:
+  enable: true #控制开关
+  custom_pic:
+    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+  message: #信笺正文，多行文本，写法如下
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+  height: #1024px，信封划出的高度
+  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+  front_matter: #【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
+    top_img: false
+    type: envelope
+
+# 追番插件
+# https://github.com/HCLonely/hexo-bilibili-bangumi
+bangumi: # 追番设置
+  enable: true
+  source: bili
+  path:
+  vmid: 372204786
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 1
+  lazyload: false
+  loading:
+  showMyComment: false
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  proxy:
+    host: "代理host"
+    port: "代理端口"
+  extra_options:
+    top_img: false
+    lazyload:
+      enable: false
+
+aplayer:
+  meting: true
+  asset_inject: false
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
